@@ -1,0 +1,146 @@
+html, body {
+    background-color: lightgreen;
+    height:100vh;
+    background: transparent url(https://www.youcubed.org/wp-content/uploads/2020/03/shutterstock_1140911045-1024x1024.png) no-repeat;
+    background-size: cover;
+    font-family: 'Audiowide', cursive;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board-center {
+    color: #fff;
+    border: 1px solid ;
+    width: 100%;
+}
+
+
+
+.player2 {
+    background-color: #fff;
+    position: absolute;
+    top:50px;
+    padding:5px 50px;
+    border-radius: 10px;
+    
+}
+
+.player1 {
+    background-color: #fff;
+    position: absolute;
+    bottom: 50px;
+    padding:5px 50px;
+    border-radius: 10px;
+}
+
+.player2-base {
+    background-color: white;
+    position: absolute;
+    top:120px;
+    padding: 10px 300px;
+    border-radius: 10px;
+}
+
+.player1-base {
+    background-color: white;
+    position: absolute;
+    bottom:120px;
+    padding: 10px 300px;
+    border-radius: 10px;
+}
+
+.player2-pool {
+    background-color: white;
+    position: absolute;
+    top:120px;
+    left:50px;
+    height:50px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.player1-pool {
+    background-color: white;
+    position: absolute;
+    bottom:120px;
+    left:50px;
+    height:50px;
+    width: 150px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.player2-board {
+    background-color: white;
+    position: absolute;
+    top:200px;
+    padding: 100px 400px;
+    border-radius: 50px;
+}
+
+
+
+.player1-board {
+    background-color: white;
+    position: absolute;
+    bottom:200px;
+    padding: 100px 400px;
+    border-radius: 50px;
+}
+
+
+.button {
+    font-family: 'Audiowide', cursive;
+    border-radius: 10px;
+}
+
+
+.start-button {
+    width: 200px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    
+}
+
+.player1-reroll-button {
+    width: 100px;
+    position: absolute;
+    top: 810px !important;
+    right: 300px;
+}
+
+.player2-reroll-button {
+    width: 100px;
+    position: absolute;
+    top: 55px !important;
+    right: 300px;
+}
+
+#reroll-button {
+    position:absolute;
+    top: -100px;
+}
+
+.loser-declaration {
+    color:#fff;
+    width:100px;
+    position:absolute;
+    top: 50px;
+    right: 100px;
+    margin-left: 5px;
+}
+
+.dice {
+    width: 20px;
+}
