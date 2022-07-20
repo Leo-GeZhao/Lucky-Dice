@@ -1,5 +1,5 @@
 # Lucky Dice
-<img src="https://github.com/Leo-GeZhao/Lucky-Dice/blob/master/img/Lucky-Dice.png" width="300"/>
+<img src="https://github.com/Leo-GeZhao/Lucky-Dice/blob/master/img/Lucky-Dice.png" width="900"/>
 
 ---
 
